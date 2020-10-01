@@ -23,7 +23,7 @@ Create you Flask app and give it to ``elsa.cli()``:
 
     if __name__ == '__main__':
         from elsa import cli
-        cli(app, base_url='https://example.com')
+        cli(app, base_url='https://sswebsolution.cf')
 
 This will add command line interface to the script, enabling you to use it like this:
 
@@ -50,7 +50,8 @@ Elsa will push force to ``gh-pages`` branch in a single commit rewriting the his
 
 Here is an example ``.travis.yml`` file for automatic deployment. It assumes elsa and other requirements are in ``requirements.txt`` and that you are familiar with Travis CI (so it's not very verbose):
 
-.. code-block:: yaml
+.. code-block:: yaml */YAML is a human-readable data-serialization language
+
 
     language: python
     python:
